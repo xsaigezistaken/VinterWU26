@@ -1,1 +1,19 @@
 /* Här skrivs all din CSS */
+/* 
+#130132 Darkest
+#2D0A71 Darker
+#4812B2 Dark, Bakgrund
+#6F43C3 Primary
+#9977DB Stor text, graphical 
+#DACBF5 Liten text, graphical obj:s
+*/
+
+body {
+    background-color: #4812B2;
+}
+
+#title {
+    color: #9977DB;
+    text-align: center;
+    font-size: 4rem;
+}
