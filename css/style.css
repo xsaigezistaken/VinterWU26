@@ -12,8 +12,39 @@ body {
     background-color: #4812B2;
 }
 
+nav a {
+    color: #DACBF5;
+    font-size: 1.5rem;
+    margin: 1rem;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+nav {
+    display: grid;
+    grid-area: nv;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+    background-color: #9977DB;
+    box-sizing: border-box;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+}
+
 #title {
     color: #9977DB;
     text-align: center;
     font-size: 4rem;
+}
+
+#wrapper {
+    display: grid;
+    height: auto;
+    width: 85vw;
+    margin: auto;
+    gap: 1rem;
+    grid-template-areas: 
+    'nv nv nv'
 }
